@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/practicalmeteor/meteor-chai.svg?branch=master)](https://travis-ci.org/practicalmeteor/meteor-chai)
+
 ## Overview
 
 The Chai Assertion Library, packaged for meteor.
@@ -8,6 +9,7 @@ The Chai Assertion Library, packaged for meteor.
 2.1.0
 
 ## Exports
+
 * chai
 * assert
 * expect
@@ -29,6 +31,10 @@ Server: Meteor.settings.chai.includeStack
 
 Client: Meteor.settings.public.chai.includeStack
 
+## Production environment
+
+If you don't need to use this package in production environment, you can define a process variable `METEOR_CHAI_TEST_ONLY` set to `true`.
+
 ## Changelog
 
 [CHANGELOG](https://github.com/practicalmeteor/meteor-chai/blob/master/CHANGELOG.md)
@@ -38,4 +44,5 @@ Client: Meteor.settings.public.chai.includeStack
 Please visit the [chaijs](http://chaijs.com/) homepage.
 
 ## License
+
 The chaijs license is MIT. This meteor package too.
