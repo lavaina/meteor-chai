@@ -1,4 +1,9 @@
 [![Build Status](https://travis-ci.org/practicalmeteor/meteor-chai.svg?branch=master)](https://travis-ci.org/practicalmeteor/meteor-chai)
+
+# This project is no longer maintained
+
+Due to leaving the meteor community, this project and all of it's related projects are no longer maintained by it's owners and contributors. See [meteor's official guide](https://guide.meteor.com/) or [meteor's package repository](https://atmospherejs.com/) for alternatives.
+
 ## Overview
 
 The Chai Assertion Library, packaged for meteor.
